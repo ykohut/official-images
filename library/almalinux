@@ -1,27 +1,39 @@
-# This file was generated on https://github.com/yuravk/container-images/actions/runs/8449150308
+# This file was generated on https://github.com/yuravk/container-images/actions/runs/8628866643
 Maintainers: The AlmaLinux OS Foundation <cloud-infra@almalinux.org> (@AlmaLinux)
 GitRepo: https://github.com/yuravk/container-images.git
 
-Tags: 8, 8.9, 8.9-20240327
-GitFetch: refs/heads/docker-library
-GitCommit: cc9772655a61c9f06971dec8ec486e0c59713d12
-File: Containerfiles/8/Containerfile.default
+Tags: 8, 8.9, 8.9-20231124
+GitFetch: refs/heads/8
+GitCommit: ef994a6d2bb89c7d8acd3aa6d6c5727564ef2a47
+amd64-Directory: default/amd64/
+arm64v8-Directory: default/arm64/
+ppc64le-Directory: default/ppc64le/
+s390x-Directory: default/s390x/
 Architectures: amd64, arm64v8, ppc64le, s390x
 
-Tags: 8-minimal, 8.9-minimal, 8.9-minimal-20240327
-GitFetch: refs/heads/docker-library
-GitCommit: cc9772655a61c9f06971dec8ec486e0c59713d12
-File: Containerfiles/8/Containerfile.minimal
+Tags: 8-minimal, 8.9-minimal, 8.9-minimal-20231124
+GitFetch: refs/heads/8
+GitCommit: ef994a6d2bb89c7d8acd3aa6d6c5727564ef2a47
+amd64-Directory: minimal/amd64/
+arm64v8-Directory: minimal/arm64/
+ppc64le-Directory: minimal/ppc64le/
+s390x-Directory: minimal/s390x/
 Architectures: amd64, arm64v8, ppc64le, s390x
 
-Tags: latest, 9, 9.3, 9.3-20240327
-GitFetch: refs/heads/docker-library
-GitCommit: 4d966539c197e2e904e89c627a005fbfe39a9d8d
-File: Containerfiles/9/Containerfile.default
+Tags: latest, 9, 9.3, 9.3-20231124
+GitFetch: refs/heads/9
+GitCommit: dae73b9065a97853586bb0c7bf7241f65c0c47b4
+amd64-Directory: default/amd64/
+arm64v8-Directory: default/arm64/
+ppc64le-Directory: default/ppc64le/
+s390x-Directory: default/s390x/
 Architectures: amd64, arm64v8, ppc64le, s390x
 
-Tags: minimal, 9-minimal, 9.3-minimal, 9.3-minimal-20240327
-GitFetch: refs/heads/docker-library
-GitCommit: 4d966539c197e2e904e89c627a005fbfe39a9d8d
-File: Containerfiles/9/Containerfile.minimal
+Tags: minimal, 9-minimal, 9.3-minimal, 9.3-minimal-20240410
+GitFetch: refs/heads/9
+GitCommit: c0e016fe037d2cb809448f9b0a32571ddb628344
+amd64-Directory: minimal/amd64/
+arm64v8-Directory: minimal/arm64/
+ppc64le-Directory: minimal/ppc64le/
+s390x-Directory: minimal/s390x/
 Architectures: amd64, arm64v8, ppc64le, s390x
