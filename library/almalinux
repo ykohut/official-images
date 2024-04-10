@@ -1,4 +1,4 @@
-# This file was generated on https://github.com/yuravk/container-images/actions/runs/8628866643
+# This file was generated on https://github.com/yuravk/container-images/actions/runs/8631525800
 Maintainers: The AlmaLinux OS Foundation <cloud-infra@almalinux.org> (@AlmaLinux)
 GitRepo: https://github.com/yuravk/container-images.git
 
@@ -20,9 +20,9 @@ ppc64le-Directory: minimal/ppc64le/
 s390x-Directory: minimal/s390x/
 Architectures: amd64, arm64v8, ppc64le, s390x
 
-Tags: latest, 9, 9.3, 9.3-20231124
+Tags: latest, 9, 9.3, 9.3-20240410
 GitFetch: refs/heads/9
-GitCommit: dae73b9065a97853586bb0c7bf7241f65c0c47b4
+GitCommit: d820e2a6b01dd41740222eacee1ea4950861b10d
 amd64-Directory: default/amd64/
 arm64v8-Directory: default/arm64/
 ppc64le-Directory: default/ppc64le/
