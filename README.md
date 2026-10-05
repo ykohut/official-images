@@ -70,11 +70,10 @@ Some images have been ported for other architectures, and many of these are offi
 	-	ARMv5 32-bit (`arm32v5`): https://hub.docker.com/u/arm32v5/
 	-	IBM POWER8 (`ppc64le`): https://hub.docker.com/u/ppc64le/
 	-	IBM z Systems (`s390x`): https://hub.docker.com/u/s390x/
-	-	MIPS64 LE (`mips64le`): https://hub.docker.com/u/mips64le/
 	-	RISC-V 64-bit (`riscv64`): https://hub.docker.com/u/riscv64/
 	-	x86/i686 (`i386`): https://hub.docker.com/u/i386/
 
-These other architectures are included under the non-prefixed images via [OCI "image indexes"](https://github.com/opencontainers/image-spec/blob/v1.1.1/image-index.md)), such that, for example, `docker run hello-world` should run as-is on all supported platforms.
+These other architectures are included under the non-prefixed images via [OCI "image indexes"](https://github.com/opencontainers/image-spec/blob/v1.1.1/image-index.md), such that, for example, `docker run hello-world` should run as-is on all supported platforms.
 
 If you're curious about how these are built, head over to [our FAQ entry](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what) to see an explanation of the process or visit [meta-scripts](https://github.com/docker-library/meta-scripts) to see the build process source files.
 
@@ -254,13 +253,13 @@ Below are some examples:
 	    key='A4A9406876FCBD3C456770C88C718D3B5072E1F5'; \
 	    export GNUPGHOME="$(mktemp -d)"; \
 	    gpg --batch --keyserver keyserver.ubuntu.com --recv-keys "$key"; \
-	    gpg --batch --armor --export "$key" > /etc/apt/trusted.gpg.d/mysql.gpg.asc; \
+	    gpg --batch --armor --export "$key" > /etc/apt/keyrings/mysql.asc; \
 	    gpgconf --kill all; \
 	    rm -rf "$GNUPGHOME"; \
 	    apt-key list > /dev/null
 
 	RUN set -eux; \
-	    echo "deb http://repo.mysql.com/apt/debian/ bookworm mysql-${MYSQL_MAJOR}" > /etc/apt/sources.list.d/mysql.list; \
+	    echo "deb [ signed-by=/etc/apt/keyrings/mysql.asc ] http://repo.mysql.com/apt/debian/ bookworm mysql-${MYSQL_MAJOR}" > /etc/apt/sources.list.d/mysql.list; \
 	    apt-get update; \
 	    apt-get install -y mysql-community-client="${MYSQL_VERSION}" mysql-community-server-core="${MYSQL_VERSION}"; \
 	    rm -rf /var/lib/apt/lists/*; \
@@ -315,7 +314,6 @@ Each repo can specify multiple architectures for any and all tags. If no archite
 -	`arm32v7`
 -	`arm64v8`
 -	`i386`
--	`mips64le`
 -	`ppc64le`
 -	`riscv64`
 -	`s390x`

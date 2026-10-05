@@ -1,31 +1,33 @@
 Maintainers: Amazon Linux <amazon-linux@amazon.com> (@amazonlinux),
              Frédérick Lefebvre (@fred-lefebvre),
              Stewart Smith (@stewartsmith),
-             Christopher Miller (@mysteriouspants),
              Sumit Tomer (@sktomer),
              Jason Jiannuo Pei (@peijiannuo),
              Michael Mammo (@MichaelAbebaw),
              Piyush Talreja (@piyush-talreja),
              Akhila Katkuri (@Akhilark1202),
-             Neelkanth Poosa (@neelkanthpoosa)
+             Neelkanth Poosa (@neelkanthpoosa),
+             Ishwar Thirunavukkarasu (@ishwartg)
 GitRepo: https://github.com/amazonlinux/container-images.git
 GitCommit: cc7a1876866f4056fa73a789a5b758358151c189
 
-Tags: 2023, latest, 2023.9.20251117.1
+Tags: 2023, latest, 2023.12.20260918.0
 Architectures: amd64, arm64v8
 amd64-GitFetch: refs/heads/al2023
-amd64-GitCommit: af9f950543bd06e482cf2cc4fce32f988e1b0cc6
+amd64-GitCommit: dd54ed8d7b24699e7a8f9da0d9611961b1866c0e
 arm64v8-GitFetch: refs/heads/al2023-arm64
-arm64v8-GitCommit: 86eb74bfdeed44a90cd2681792b825cc19173eac
+arm64v8-GitCommit: 60732e105be9c9b33ad73ca189d231741634c7a0
 
-Tags: 2, 2.0.20251110.1
+Tags: 2, 2.0.20260923.0
 Architectures: amd64, arm64v8
 amd64-GitFetch: refs/heads/amzn2
-amd64-GitCommit: 21640b88ffdb2768599539081529c4e8859b7b6d
+amd64-GitCommit: 9bb45699376422ea8f63e03ee6cf2929229831e1
 arm64v8-GitFetch: refs/heads/amzn2-arm64
-arm64v8-GitCommit: 7fe1b60afee52c360a74c7956836977a176a17fc
+arm64v8-GitCommit: e662513db436ac3dfdd255e0c034bbaf7b6c5acb
 
-Tags: 1, 2018.03, 2018.03.0.20231218.0
-Architectures: amd64
-amd64-GitFetch: refs/heads/2018.03
-amd64-GitCommit: cfb41ad1c7624786ea10f60c15ce9c117c4da3b6
+Tags: 2027, 2027.0.20260914.0
+Architectures: amd64, arm64v8
+amd64-GitFetch: refs/heads/al2027
+amd64-GitCommit: 660a3406b2b14a281cc58bb6d0d7d326465d1084
+arm64v8-GitFetch: refs/heads/al2027-arm64
+arm64v8-GitCommit: 13d6d21def2c1f233b31537a093d3f9f297b757b

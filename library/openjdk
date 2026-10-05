@@ -3,53 +3,53 @@
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/openjdk.git
-GitCommit: 4fa5ca2625a7b228723b6f55a04d9e0716a19405
+GitCommit: d2aab0b43813fbee99b6f96be6e35b7c30a7629a
 
-Tags: 26-ea-25-jdk-oraclelinux9, 26-ea-25-oraclelinux9, 26-ea-jdk-oraclelinux9, 26-ea-oraclelinux9, 26-ea-25-jdk-oracle, 26-ea-25-oracle, 26-ea-jdk-oracle, 26-ea-oracle
-SharedTags: 26-ea-25-jdk, 26-ea-25, 26-ea-jdk, 26-ea
-Directory: 26/oraclelinux9
+Tags: 28-ea-18-jdk-oraclelinux10, 28-ea-18-oraclelinux10, 28-ea-jdk-oraclelinux10, 28-ea-oraclelinux10, 28-ea-18-jdk-oracle, 28-ea-18-oracle, 28-ea-jdk-oracle, 28-ea-oracle
+SharedTags: 28-ea-18-jdk, 28-ea-18, 28-ea-jdk, 28-ea
+Directory: 28/oraclelinux10
 Architectures: amd64, arm64v8
 
-Tags: 26-ea-25-jdk-oraclelinux8, 26-ea-25-oraclelinux8, 26-ea-jdk-oraclelinux8, 26-ea-oraclelinux8
-Directory: 26/oraclelinux8
+Tags: 28-ea-18-jdk-oraclelinux9, 28-ea-18-oraclelinux9, 28-ea-jdk-oraclelinux9, 28-ea-oraclelinux9
+Directory: 28/oraclelinux9
 Architectures: amd64, arm64v8
 
-Tags: 26-ea-25-jdk-trixie, 26-ea-25-trixie, 26-ea-jdk-trixie, 26-ea-trixie
-Directory: 26/trixie
+Tags: 28-ea-18-jdk-trixie, 28-ea-18-trixie, 28-ea-jdk-trixie, 28-ea-trixie
+Directory: 28/trixie
 Architectures: amd64, arm64v8
 
-Tags: 26-ea-25-jdk-slim-trixie, 26-ea-25-slim-trixie, 26-ea-jdk-slim-trixie, 26-ea-slim-trixie, 26-ea-25-jdk-slim, 26-ea-25-slim, 26-ea-jdk-slim, 26-ea-slim
-Directory: 26/slim-trixie
+Tags: 28-ea-18-jdk-slim-trixie, 28-ea-18-slim-trixie, 28-ea-jdk-slim-trixie, 28-ea-slim-trixie, 28-ea-18-jdk-slim, 28-ea-18-slim, 28-ea-jdk-slim, 28-ea-slim
+Directory: 28/slim-trixie
 Architectures: amd64, arm64v8
 
-Tags: 26-ea-25-jdk-bookworm, 26-ea-25-bookworm, 26-ea-jdk-bookworm, 26-ea-bookworm
-Directory: 26/bookworm
+Tags: 28-ea-18-jdk-bookworm, 28-ea-18-bookworm, 28-ea-jdk-bookworm, 28-ea-bookworm
+Directory: 28/bookworm
 Architectures: amd64, arm64v8
 
-Tags: 26-ea-25-jdk-slim-bookworm, 26-ea-25-slim-bookworm, 26-ea-jdk-slim-bookworm, 26-ea-slim-bookworm
-Directory: 26/slim-bookworm
+Tags: 28-ea-18-jdk-slim-bookworm, 28-ea-18-slim-bookworm, 28-ea-jdk-slim-bookworm, 28-ea-slim-bookworm
+Directory: 28/slim-bookworm
 Architectures: amd64, arm64v8
 
-Tags: 26-ea-25-jdk-windowsservercore-ltsc2025, 26-ea-25-windowsservercore-ltsc2025, 26-ea-jdk-windowsservercore-ltsc2025, 26-ea-windowsservercore-ltsc2025
-SharedTags: 26-ea-25-jdk-windowsservercore, 26-ea-25-windowsservercore, 26-ea-jdk-windowsservercore, 26-ea-windowsservercore, 26-ea-25-jdk, 26-ea-25, 26-ea-jdk, 26-ea
-Directory: 26/windows/windowsservercore-ltsc2025
+Tags: 28-ea-18-jdk-windowsservercore-ltsc2025, 28-ea-18-windowsservercore-ltsc2025, 28-ea-jdk-windowsservercore-ltsc2025, 28-ea-windowsservercore-ltsc2025
+SharedTags: 28-ea-18-jdk-windowsservercore, 28-ea-18-windowsservercore, 28-ea-jdk-windowsservercore, 28-ea-windowsservercore, 28-ea-18-jdk, 28-ea-18, 28-ea-jdk, 28-ea
+Directory: 28/windows/windowsservercore-ltsc2025
 Architectures: windows-amd64
 Constraints: windowsservercore-ltsc2025
 
-Tags: 26-ea-25-jdk-windowsservercore-ltsc2022, 26-ea-25-windowsservercore-ltsc2022, 26-ea-jdk-windowsservercore-ltsc2022, 26-ea-windowsservercore-ltsc2022
-SharedTags: 26-ea-25-jdk-windowsservercore, 26-ea-25-windowsservercore, 26-ea-jdk-windowsservercore, 26-ea-windowsservercore, 26-ea-25-jdk, 26-ea-25, 26-ea-jdk, 26-ea
-Directory: 26/windows/windowsservercore-ltsc2022
+Tags: 28-ea-18-jdk-windowsservercore-ltsc2022, 28-ea-18-windowsservercore-ltsc2022, 28-ea-jdk-windowsservercore-ltsc2022, 28-ea-windowsservercore-ltsc2022
+SharedTags: 28-ea-18-jdk-windowsservercore, 28-ea-18-windowsservercore, 28-ea-jdk-windowsservercore, 28-ea-windowsservercore, 28-ea-18-jdk, 28-ea-18, 28-ea-jdk, 28-ea
+Directory: 28/windows/windowsservercore-ltsc2022
 Architectures: windows-amd64
 Constraints: windowsservercore-ltsc2022
 
-Tags: 26-ea-25-jdk-nanoserver-ltsc2025, 26-ea-25-nanoserver-ltsc2025, 26-ea-jdk-nanoserver-ltsc2025, 26-ea-nanoserver-ltsc2025
-SharedTags: 26-ea-25-jdk-nanoserver, 26-ea-25-nanoserver, 26-ea-jdk-nanoserver, 26-ea-nanoserver
-Directory: 26/windows/nanoserver-ltsc2025
+Tags: 28-ea-18-jdk-nanoserver-ltsc2025, 28-ea-18-nanoserver-ltsc2025, 28-ea-jdk-nanoserver-ltsc2025, 28-ea-nanoserver-ltsc2025
+SharedTags: 28-ea-18-jdk-nanoserver, 28-ea-18-nanoserver, 28-ea-jdk-nanoserver, 28-ea-nanoserver
+Directory: 28/windows/nanoserver-ltsc2025
 Architectures: windows-amd64
 Constraints: nanoserver-ltsc2025, windowsservercore-ltsc2025
 
-Tags: 26-ea-25-jdk-nanoserver-ltsc2022, 26-ea-25-nanoserver-ltsc2022, 26-ea-jdk-nanoserver-ltsc2022, 26-ea-nanoserver-ltsc2022
-SharedTags: 26-ea-25-jdk-nanoserver, 26-ea-25-nanoserver, 26-ea-jdk-nanoserver, 26-ea-nanoserver
-Directory: 26/windows/nanoserver-ltsc2022
+Tags: 28-ea-18-jdk-nanoserver-ltsc2022, 28-ea-18-nanoserver-ltsc2022, 28-ea-jdk-nanoserver-ltsc2022, 28-ea-nanoserver-ltsc2022
+SharedTags: 28-ea-18-jdk-nanoserver, 28-ea-18-nanoserver, 28-ea-jdk-nanoserver, 28-ea-nanoserver
+Directory: 28/windows/nanoserver-ltsc2022
 Architectures: windows-amd64
 Constraints: nanoserver-ltsc2022, windowsservercore-ltsc2022

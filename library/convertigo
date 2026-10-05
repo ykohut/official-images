@@ -1,7 +1,7 @@
 Maintainers: Nicolas Albert <nicolasa@convertigo.com> (@nicolas-albert), Olivier Picciotto <olivier.picciotto@convertigo.com> (@opicciotto)
 GitRepo: https://github.com/convertigo/convertigo
-GitCommit: 627b70f12e7af2b84bbdb9004c7e338802ee6567
+GitCommit: a88d3732ccc395b4a769e618d7e5cad71e4b4ed8
 
-Tags: 8.3.10, 8.3, latest
+Tags: 8.4.5, 8.4, latest
 Architectures: amd64, arm64v8
 Directory: docker/default

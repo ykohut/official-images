@@ -1,34 +1,64 @@
-# This file is generated via https://github.com/nextcloud/docker/blob/4f4c97fcc5ac804de4ec107a3016196a632ddf4e/generate-stackbrew-library.sh
+# This file is generated via https://github.com/nextcloud/docker/blob/056e5f0ce1a4be25213bdd5e0a1d70280a610531/generate-stackbrew-library.sh
 
 Maintainers: Nextcloud <docker@nextcloud.com> (@nextcloud)
 GitRepo: https://github.com/nextcloud/docker.git
 
-Tags: 31.0.11-apache, 31.0-apache, 31-apache, stable-apache, production-apache, 31.0.11, 31.0, 31, stable, production
+Tags: 32.0.15-apache, 32.0-apache, 32-apache, 32.0.15, 32.0, 32
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
-GitCommit: 32ff0009669d4a63671e6dff0bb137357b9c0a2d
-Directory: 31/apache
-
-Tags: 31.0.11-fpm, 31.0-fpm, 31-fpm, stable-fpm, production-fpm
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
-GitCommit: 32ff0009669d4a63671e6dff0bb137357b9c0a2d
-Directory: 31/fpm
-
-Tags: 31.0.11-fpm-alpine, 31.0-fpm-alpine, 31-fpm-alpine, stable-fpm-alpine, production-fpm-alpine
-Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
-GitCommit: 32ff0009669d4a63671e6dff0bb137357b9c0a2d
-Directory: 31/fpm-alpine
-
-Tags: 32.0.2-apache, 32.0-apache, 32-apache, apache, 32.0.2, 32.0, 32, latest
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
-GitCommit: 32ff0009669d4a63671e6dff0bb137357b9c0a2d
+GitCommit: a1206d2467689ecb8597b7e5b753b49dda29b773
 Directory: 32/apache
 
-Tags: 32.0.2-fpm, 32.0-fpm, 32-fpm, fpm
+Tags: 32.0.15-fpm, 32.0-fpm, 32-fpm
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
-GitCommit: 32ff0009669d4a63671e6dff0bb137357b9c0a2d
+GitCommit: a1206d2467689ecb8597b7e5b753b49dda29b773
 Directory: 32/fpm
 
-Tags: 32.0.2-fpm-alpine, 32.0-fpm-alpine, 32-fpm-alpine, fpm-alpine
+Tags: 32.0.15-fpm-alpine, 32.0-fpm-alpine, 32-fpm-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
-GitCommit: 32ff0009669d4a63671e6dff0bb137357b9c0a2d
+GitCommit: a1206d2467689ecb8597b7e5b753b49dda29b773
 Directory: 32/fpm-alpine
+
+Tags: 33.0.9-apache, 33.0-apache, 33-apache, 33.0.9, 33.0, 33
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: a1206d2467689ecb8597b7e5b753b49dda29b773
+Directory: 33/apache
+
+Tags: 33.0.9-fpm, 33.0-fpm, 33-fpm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: a1206d2467689ecb8597b7e5b753b49dda29b773
+Directory: 33/fpm
+
+Tags: 33.0.9-fpm-alpine, 33.0-fpm-alpine, 33-fpm-alpine
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: a1206d2467689ecb8597b7e5b753b49dda29b773
+Directory: 33/fpm-alpine
+
+Tags: 34.0.4-apache, 34.0-apache, 34-apache, stable-apache, production-apache, 34.0.4, 34.0, 34, stable, production
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: a1206d2467689ecb8597b7e5b753b49dda29b773
+Directory: 34/apache
+
+Tags: 34.0.4-fpm, 34.0-fpm, 34-fpm, stable-fpm, production-fpm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: a1206d2467689ecb8597b7e5b753b49dda29b773
+Directory: 34/fpm
+
+Tags: 34.0.4-fpm-alpine, 34.0-fpm-alpine, 34-fpm-alpine, stable-fpm-alpine, production-fpm-alpine
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: a1206d2467689ecb8597b7e5b753b49dda29b773
+Directory: 34/fpm-alpine
+
+Tags: 35.0.1-apache, 35.0-apache, 35-apache, apache, 35.0.1, 35.0, 35, latest
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 6edd06e23466ed44d48e3d467b09e0c5fc0ffc17
+Directory: 35/apache
+
+Tags: 35.0.1-fpm, 35.0-fpm, 35-fpm, fpm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 6edd06e23466ed44d48e3d467b09e0c5fc0ffc17
+Directory: 35/fpm
+
+Tags: 35.0.1-fpm-alpine, 35.0-fpm-alpine, 35-fpm-alpine, fpm-alpine
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: 6edd06e23466ed44d48e3d467b09e0c5fc0ffc17
+Directory: 35/fpm-alpine

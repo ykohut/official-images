@@ -1,34 +1,38 @@
-# this file is generated via https://github.com/RocketChat/Docker.Official.Image/blob/2a9ae8ec5a776e46c525a9f2834aebed3bcc1740/stackbrew.js
+# this file is generated via https://github.com/RocketChat/Docker.Official.Image/blob/12a99a0c83e7854c6ccb4cc28e70e9e88fd6de4b/stackbrew.js
 
 Maintainers: Rocket.Chat Image Team <buildmaster@rocket.chat> (@RocketChat)
 GitRepo: https://github.com/RocketChat/Docker.Official.Image.git
 GitFetch: refs/heads/main
 
-Tags: 7.12.1, 7.12, 7, latest
-GitCommit: c673436d5d242050c176d666e62a9e6fe3ec2aa9
-Directory: 7.12
+Tags: 8.8.1, 8.8, latest
+GitCommit: 2ad8a4fc73ba9dceb1c18adf49f1510cf671e6aa
+Directory: 8.8
 
-Tags: 7.11.1, 7.11
-GitCommit: c673436d5d242050c176d666e62a9e6fe3ec2aa9
-Directory: 7.11
+Tags: 8.7.1, 8.7
+GitCommit: 2ad8a4fc73ba9dceb1c18adf49f1510cf671e6aa
+Directory: 8.7
 
-Tags: 7.10.4, 7.10
-GitCommit: c673436d5d242050c176d666e62a9e6fe3ec2aa9
+Tags: 8.6.2, 8.6
+GitCommit: 2ad8a4fc73ba9dceb1c18adf49f1510cf671e6aa
+Directory: 8.6
+
+Tags: 8.5.3, 8.5
+GitCommit: 2ad8a4fc73ba9dceb1c18adf49f1510cf671e6aa
+Directory: 8.5
+
+Tags: 8.4.6, 8.4
+GitCommit: 2ad8a4fc73ba9dceb1c18adf49f1510cf671e6aa
+Directory: 8.4
+
+Tags: 8.3.8, 8.3
+GitCommit: 2ad8a4fc73ba9dceb1c18adf49f1510cf671e6aa
+Directory: 8.3
+
+Tags: 8.2.8, 8.2
+GitCommit: 2ad8a4fc73ba9dceb1c18adf49f1510cf671e6aa
+Directory: 8.2
+
+Tags: 7.10.15, 7.10
+GitCommit: 2ad8a4fc73ba9dceb1c18adf49f1510cf671e6aa
 Directory: 7.10
-
-Tags: 7.9.5, 7.9
-GitCommit: 962b38b0911a42f671939098c7983897f1601521
-Directory: 7.9
-
-Tags: 7.8.4, 7.8
-GitCommit: dddaa7c23275b8514d1d994bdfabaafd510f0ebf
-Directory: 7.8
-
-Tags: 7.7.9, 7.7
-GitCommit: 962b38b0911a42f671939098c7983897f1601521
-Directory: 7.7
-
-Tags: 7.6.6, 7.6
-GitCommit: 962b38b0911a42f671939098c7983897f1601521
-Directory: 7.6
 

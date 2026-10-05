@@ -1,17 +1,13 @@
 Maintainers: Mathias Fußenegger <mathias@crate.io> (@mfussenegger),
              Sebastian Utz <sebastian@crate.io> (@seut),
-             Michael Kleen <michael.kleen@crate.io> (@mkleen),
-             Andreas Motl <andreas.motl@crate.io> (@amotl)
+             Marios Trivyzas <marios@crate.io> (@matriv),
+             Baurzhan Sakhariev <bauyrzhan@crate.io> (@BaurzhanSakhariev)
 GitRepo: https://github.com/crate/docker-crate.git
 
-Tags: 6.1.1, 6.1, latest
+Tags: 6.4.5, 6.4, latest
 Architectures: amd64, arm64v8
-GitCommit: 7ab8e7cc9eff606e1990a6ee5c5a051cf6465829
+GitCommit: ccf6da9086f5273062b1b74ba26a4342f180de6a
 
-Tags: 6.0.4, 6.0
+Tags: 6.3.7, 6.3
 Architectures: amd64, arm64v8
-GitCommit: 72befa37b8f90419f03affdc2e217f83657098b0
-
-Tags: 5.10.15, 5.10
-Architectures: amd64, arm64v8
-GitCommit: 97accb5d81e666eaf84e92f814842978208fbe0b
+GitCommit: 11157f4a7bb64d4210c9fcca8a10262712dc23d4
